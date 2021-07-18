@@ -1,0 +1,4 @@
+{
+    "board": "digistump:avr:digispark-tiny",
+    "sketch": "midnight-wee-light.ino"
+}

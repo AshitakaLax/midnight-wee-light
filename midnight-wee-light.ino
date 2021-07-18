@@ -15,8 +15,13 @@ bool lightOn;
 void setup() {
   // put your setup code here, to run once:
   FastLED.addLeds<NEOPIXEL, 6>(leds, NUM_LEDS); 
+  FastLED.clear();
+  FastLED.show();
+  delay(10);
+  FastLED.clear();
+  FastLED.show();
   fill_solid( &(leds[0]), NUM_LEDS, CRGB( 0, 0, 0) );
-
+  delay(10);
   lightOn = false;
 }
 
